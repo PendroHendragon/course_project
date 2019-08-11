@@ -1,0 +1,12 @@
+{
+  "name": "novo",
+  "version": "0.0.1",
+  "description": "login_tela",
+  "main": "index.html",
+  "author": "Pedro_slythin",
+  "license": "open source",
+  "dependencies": {
+    "bulma": "^0.7.5",
+    "picnic": "^6.5.1"
+  }
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="/node_modules/picnic/picnic.min.css">
+        <style>
+            body{
+                background-color: dodgerblue;
+            }       
+
+            .btn{
+                background-color: black;
+            }
+            #login {
+               
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+
+           
+        </style>  
+    </head>
+    <body>
+        <div id="login" class="flex two center">
+
+            <form action="/pages/index.html" method="GET">
+                <fieldset>
+
+                    <input type="email" placeholder="email@example.com" name="login" required>
+                    <input type="password" placeholder="Password" name="password" required>
+                    
+                    <div class="center divine">
+                        <button type="submit" class="btn">Login</button>
+                    
+                    <a href="#" class="btn button">create account</a>
+                    </div>
+                </fieldset>
+            </form>
+
+        </div>
+
+    </body>
+</html>
